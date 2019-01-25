@@ -1,0 +1,9 @@
+
+目前已知的所有所谓AI辅助编码，能够实现工业化的，都是在代码自动补全的基础上进行AI优化，将最有可能使用的接口放到提示的最上面
+	• codebot： 公司内的工具，是IntelliJ IDEA的插件，仅支持java
+	• Codota：IntelliJ IDEA 插件，目前仅支持java，https://www.codota.com/
+	• kite： python的智能化辅助编程工具，https://kite.com/，支持 Atom、Sublime Text 、PyCharm、Intellij ，公司内没法用，要连服务器登录，无论云上还是云下都连不上，无法试用。
+	• aiXcoder：http://www.aixcoder.com/，试用要账号，仅支持python 的Tensorflow 版和java的Android 版, pycharm插件
+	• zeal/dash：离线api文档，pycharm上安装插件dash后可以使用，windows和linux只能安装zeal:https://zealdocs.org/download.html#windows，mac可以装dash，第一次使用的时候需要把所需的文档先下载下来，选中，tools->smart-search documentation就会自动弹出帮助
+	• IntelliSense：微软vs code插件，光标悬停在函数上时显示类定义和注释，编辑时自动插入代码，包括结束标记、右大括号以及值两边的引号，就是个IDE自动补全功能，并没有所谓的智能，其他IDE都有类似功能，只是不一定以插件形式提供
+	• CodeWisdom： http://www.sohu.com/a/238398195_610499，java，提供代码推荐(就是代码自动完成)、API知识图谱、API排行榜、代码差异理解(对差异代码做了类似自然语言的解释，例如增加方法声明)、代码克隆检索五个方面的智能化服务
